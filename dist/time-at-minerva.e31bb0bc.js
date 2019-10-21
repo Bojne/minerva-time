@@ -37953,7 +37953,15 @@ function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Seoul \uD83C\uDDF0\uD83C\uDDF7"), _react.default.createElement("p", null, Seoul)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Berlin \uD83C\uDDE9\uD83C\uDDEA"), _react.default.createElement("p", null, Berlin)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "London \uD83C\uDDEC\uD83C\uDDE7"), _react.default.createElement("p", null, London)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "San Francisco \uD83C\uDDFA\uD83C\uDDF8"), _react.default.createElement("p", null, SanFrancisco)));
+      return _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Seoul \uD83C\uDDF0\uD83C\uDDF7"), _react.default.createElement("p", {
+        class: "time"
+      }, Seoul)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Berlin \uD83C\uDDE9\uD83C\uDDEA"), _react.default.createElement("p", {
+        class: "time"
+      }, Berlin)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "London \uD83C\uDDEC\uD83C\uDDE7"), _react.default.createElement("p", {
+        class: "time"
+      }, London)), _react.default.createElement("div", null, _react.default.createElement("h2", null, "San Francisco \uD83C\uDDFA\uD83C\uDDF8"), _react.default.createElement("p", {
+        class: "time"
+      }, SanFrancisco)));
     }
   }]);
 
@@ -37989,7 +37997,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51652" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52826" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

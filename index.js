@@ -24,19 +24,19 @@ class App extends React.Component {
         <div>
           <div>
             <h2>Seoul 🇰🇷</h2> 
-            <p>{Seoul}</p>
+            <p class='time'>{Seoul}</p>
           </div>
           <div>
             <h2>Berlin 🇩🇪</h2> 
-            <p>{Berlin}</p>
+            <p class='time'>{Berlin}</p>
           </div>
           <div>
             <h2>London 🇬🇧</h2> 
-            <p>{London}</p>
+            <p class='time'>{London}</p>
           </div>
           <div>
             <h2>San Francisco 🇺🇸</h2> 
-            <p>{SanFrancisco}</p>
+            <p class='time'>{SanFrancisco}</p>
           </div>
         </div>
       )  
